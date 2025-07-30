@@ -1,6 +1,6 @@
 # *IMPORTANT*
 
-This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry) and for forge only you need [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
+This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry) and for Forge only you need [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
 
 ---
 
