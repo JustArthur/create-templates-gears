@@ -1,6 +1,7 @@
 # *IMPORTANT*
 
-This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry), and [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
+This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry)
+[Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates) For Forge only, not required for Fabric version.
 
 ---
 
@@ -45,7 +46,7 @@ You’ll need to:
 After these steps, you’ll have a **fully functional Armor Trim Template** — obtained through automation, logic, and style.  
 Perfect for tech-based survival worlds or modpacks aiming to reduce RNG and promote **player-driven progression**.
 
-# New Recipes
+# New Recipes (Forge Version Only)
 
 Adding 2 new Recipes for [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates) mod.
 
