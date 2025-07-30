@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_templates_gears:host_sheet",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "mod_elements": [
+    {
+      "name": "CreateTemplateGears",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_template_gears",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CoastSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coast_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_templates_gears/models/item/coast_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/CoastSheetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoastCoralSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coast_coral_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_templates_gears/models/item/coast_coral_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/CoastCoralSheetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "InactiveCoastArmorTrim",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inactive_coast_armor_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_coast_armor_trim.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveCoastArmorTrimItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DuneSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dune_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/DuneSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/dune_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "InactiveDuneArmorTrim",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inactive_dune_armor_trim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveDuneArmorTrimItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_dune_armor_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "EyeSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/EyeSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/eye_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "InnactiveEyeArmorTrim",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "innactive_eye_armor_trim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/InnactiveEyeArmorTrimItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/innactive_eye_armor_trim.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.create_templates_gears.create_template_gears": "Create: Template \u0026 Gears",
+      "item.create_templates_gears.coast_sheet": "Coast Shard",
+      "item.create_templates_gears.coast_coral_sheet": "Coast Coral Shard",
+      "item.create_templates_gears.inactive_coast_armor_trim": "Innactive Coast Armor Trim",
+      "item.create_templates_gears.dune_sheet": "Dune Shard",
+      "item.create_templates_gears.inactive_dune_armor_trim": "Innactive Dune Armor Trim",
+      "item.create_templates_gears.eye_sheet": "Eye Shard",
+      "item.create_templates_gears.innactive_eye_armor_trim": "Innactive Eye Armor Trim"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/kuma/createtemplatesgears/CreateTemplatesGearsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/kuma/createtemplatesgears/ClientInit.java",
+      "src/main/resources/create_templates_gears.accesswidener",
+      "src/main/resources/create_templates_gears.mixins.json",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModTabs.java",
+      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModItems.java",
+      "src/main/java/com/kuma/createtemplatesgears/mixins/CreateTemplatesGearsModRepairItemRecipeMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_templates_gears",
+    "modName": "Create: Templates \u0026 Gears",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "com.kuma.createtemplatesgears"
+  },
+  "mcreatorVersion": 202500228610
+}

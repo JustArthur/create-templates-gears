@@ -1,0 +1,18 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 280,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Create: Templates \u0026 Gears]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle)]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets\\create_templates_gears]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets\\create_templates_gears, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\assets\\create_templates_gears\\lang]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data\\create_templates_gears]",
+      "[, Create: Templates \u0026 Gears, Resources (Gradle), C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data\\create_templates_gears, C:\\Users\\Maxxo\\MCreatorWorkspaces\\create_templates_gears_fabric\\src\\main\\resources\\data\\create_templates_gears\\tags]"
+    ]
+  }
+}

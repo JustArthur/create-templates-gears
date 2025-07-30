@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_templates_gears:coast_sheet"
+    },
+    {
+      "item": "minecraft:dead_tube_coral"
+    },
+    {
+      "item": "minecraft:dead_tube_coral"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_templates_gears:coast_coral_sheet"
+    }
+  ]
+}

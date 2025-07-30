@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "CreateTemplateGears",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_template_gears",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.create_templates_gears.create_template_gears": "Create: Template \u0026 Gears"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/kuma/createtemplatesgears/CreateTemplatesGearsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/kuma/createtemplatesgears/ClientInit.java",
+      "src/main/resources/create_templates_gears.accesswidener",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_templates_gears",
+    "modName": "Create: Templates \u0026 Gears",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "com.kuma.createtemplatesgears"
+  },
+  "mcreatorVersion": 202500228610
+}
