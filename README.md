@@ -31,7 +31,7 @@ With the base shards ready, the real process begins.
 
 You’ll need to:
 
-- Use **Mechanical Arms** to deploy decorative components like coral or gems onto your shard.
+- Use **Mechanical Arms** to deploy Polished Diamond onto your shard (For fabric a simple Diamond is used).
 - Run them through **Sequenced Assembly**, where each action upgrades the item step by step.
 - Finally, **inject XP fluid** into the item using a **Spout** to awaken its full potential.
 
