@@ -24,7 +24,6 @@ import com.kuma.createtemplatesgears.item.SilenceEchoSheetItem;
 import com.kuma.createtemplatesgears.item.ShaperSheetItem;
 import com.kuma.createtemplatesgears.item.SentrySheetItem;
 import com.kuma.createtemplatesgears.item.RibSheetItem;
-import com.kuma.createtemplatesgears.item.InnactiveEyeArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWildArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWayfinderArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWardArmorTrimItem;
@@ -37,6 +36,7 @@ import com.kuma.createtemplatesgears.item.InactiveShaperArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveSentryArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveRibArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveHostArmorTrimItem;
+import com.kuma.createtemplatesgears.item.InactiveEyeArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveDuneArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveCoastArmorTrimItem;
 import com.kuma.createtemplatesgears.item.HostSheetItem;
@@ -53,7 +53,6 @@ public class CreateTemplatesGearsModItems {
 	public static Item DUNE_SHEET;
 	public static Item INACTIVE_DUNE_ARMOR_TRIM;
 	public static Item EYE_SHEET;
-	public static Item INNACTIVE_EYE_ARMOR_TRIM;
 	public static Item HOST_SHEET;
 	public static Item INACTIVE_HOST_ARMOR_TRIM;
 	public static Item RIB_SHEET;
@@ -80,6 +79,7 @@ public class CreateTemplatesGearsModItems {
 	public static Item WILD_SHEET;
 	public static Item WILD_MOSSY_SHEET;
 	public static Item INACTIVE_WILD_ARMOR_TRIM;
+	public static Item INACTIVE_EYE_ARMOR_TRIM;
 
 	public static void load() {
 		COAST_SHEET = register("coast_sheet", new CoastSheetItem());
@@ -88,7 +88,6 @@ public class CreateTemplatesGearsModItems {
 		DUNE_SHEET = register("dune_sheet", new DuneSheetItem());
 		INACTIVE_DUNE_ARMOR_TRIM = register("inactive_dune_armor_trim", new InactiveDuneArmorTrimItem());
 		EYE_SHEET = register("eye_sheet", new EyeSheetItem());
-		INNACTIVE_EYE_ARMOR_TRIM = register("innactive_eye_armor_trim", new InnactiveEyeArmorTrimItem());
 		HOST_SHEET = register("host_sheet", new HostSheetItem());
 		INACTIVE_HOST_ARMOR_TRIM = register("inactive_host_armor_trim", new InactiveHostArmorTrimItem());
 		RIB_SHEET = register("rib_sheet", new RibSheetItem());
@@ -115,6 +114,7 @@ public class CreateTemplatesGearsModItems {
 		WILD_SHEET = register("wild_sheet", new WildSheetItem());
 		WILD_MOSSY_SHEET = register("wild_mossy_sheet", new WildMossySheetItem());
 		INACTIVE_WILD_ARMOR_TRIM = register("inactive_wild_armor_trim", new InactiveWildArmorTrimItem());
+		INACTIVE_EYE_ARMOR_TRIM = register("inactive_eye_armor_trim", new InactiveEyeArmorTrimItem());
 	}
 
 	public static void clientLoad() {

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "create_templates_gears",
+  "version": "1.0.0",
+  "name": "Create: Templates & Gears",
+  "description": "Allows you to create Smithing Templates using the machines from the Create mod.",
+  "authors": [
+    "su apt install Kuma"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JustArthur/create-templates-gears",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/create_templates_gears/icon.png",
+  "accessWidener": "create_templates_gears.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kuma.createtemplatesgears.CreateTemplatesGearsMod"
+    ],
+    "client": [
+      "com.kuma.createtemplatesgears.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "create_templates_gears.mixins.json"
+  ]
+}

@@ -5,18 +5,17 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.network.chat.Component;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-import com.kuma.createtemplatesgears.init.CreateTemplatesGearsModTabs;
-
 public class InactiveWildArmorTrimItem extends Item {
 	public InactiveWildArmorTrimItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
-		ItemGroupEvents.modifyEntriesEvent(CreateTemplatesGearsModTabs.TAB_CREATETEMPLATEGEARS).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(content -> content.accept(this));
 	}
 
 	@Override

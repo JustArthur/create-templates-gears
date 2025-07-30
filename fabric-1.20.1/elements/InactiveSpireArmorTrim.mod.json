@@ -12,7 +12,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:CreateTemplateGears"
+        "value": "MATERIALS"
       }
     ],
     "stackSize": 64,

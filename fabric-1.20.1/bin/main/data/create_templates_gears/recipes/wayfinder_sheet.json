@@ -1,0 +1,20 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_templates_gears:wayfinder_sheet",
+      "count": 3
+    }
+  ]
+}

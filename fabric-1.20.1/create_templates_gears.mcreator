@@ -1,16 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "CreateTemplateGears",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "create_template_gears",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "CoastSheet",
       "type": "item",
       "compiles": true,
@@ -18,8 +8,8 @@
       "registry_name": "coast_sheet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_templates_gears/models/item/coast_sheet.json",
-          "src/main/java/com/kuma/createtemplatesgears/item/CoastSheetItem.java"
+          "src/main/java/com/kuma/createtemplatesgears/item/CoastSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/coast_sheet.json"
         ]
       }
     },
@@ -83,21 +73,8 @@
       "registry_name": "eye_sheet",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/EyeSheetItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/eye_sheet.json"
-        ]
-      }
-    },
-    {
-      "name": "InnactiveEyeArmorTrim",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "innactive_eye_armor_trim",
-      "metadata": {
-        "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/InnactiveEyeArmorTrimItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/innactive_eye_armor_trim.json"
+          "src/main/resources/assets/create_templates_gears/models/item/eye_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/EyeSheetItem.java"
         ]
       }
     },
@@ -109,8 +86,8 @@
       "registry_name": "host_sheet",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/HostSheetItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/host_sheet.json"
+          "src/main/resources/assets/create_templates_gears/models/item/host_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/HostSheetItem.java"
         ]
       }
     },
@@ -135,8 +112,8 @@
       "registry_name": "rib_sheet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_templates_gears/models/item/rib_sheet.json",
-          "src/main/java/com/kuma/createtemplatesgears/item/RibSheetItem.java"
+          "src/main/java/com/kuma/createtemplatesgears/item/RibSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/rib_sheet.json"
         ]
       }
     },
@@ -174,8 +151,8 @@
       "registry_name": "inactive_sentry_armor_trim",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/InactiveSentryArmorTrimItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/inactive_sentry_armor_trim.json"
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_sentry_armor_trim.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveSentryArmorTrimItem.java"
         ]
       }
     },
@@ -213,8 +190,8 @@
       "registry_name": "silence_sheet",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/SilenceSheetItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/silence_sheet.json"
+          "src/main/resources/assets/create_templates_gears/models/item/silence_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/SilenceSheetItem.java"
         ]
       }
     },
@@ -252,8 +229,8 @@
       "registry_name": "snout_sheet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_templates_gears/models/item/snout_sheet.json",
-          "src/main/java/com/kuma/createtemplatesgears/item/SnoutSheetItem.java"
+          "src/main/java/com/kuma/createtemplatesgears/item/SnoutSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/snout_sheet.json"
         ]
       }
     },
@@ -291,8 +268,8 @@
       "registry_name": "inactive_spire_armor_trim",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_templates_gears/models/item/inactive_spire_armor_trim.json",
-          "src/main/java/com/kuma/createtemplatesgears/item/InactiveSpireArmorTrimItem.java"
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveSpireArmorTrimItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_spire_armor_trim.json"
         ]
       }
     },
@@ -304,8 +281,8 @@
       "registry_name": "tide_sheet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_templates_gears/models/item/tide_sheet.json",
-          "src/main/java/com/kuma/createtemplatesgears/item/TideSheetItem.java"
+          "src/main/java/com/kuma/createtemplatesgears/item/TideSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/tide_sheet.json"
         ]
       }
     },
@@ -330,8 +307,8 @@
       "registry_name": "vex_sheet",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/VexSheetItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/vex_sheet.json"
+          "src/main/resources/assets/create_templates_gears/models/item/vex_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/VexSheetItem.java"
         ]
       }
     },
@@ -343,8 +320,8 @@
       "registry_name": "inactive_vex_armor_trim",
       "metadata": {
         "files": [
-          "src/main/java/com/kuma/createtemplatesgears/item/InactiveVexArmorTrimItem.java",
-          "src/main/resources/assets/create_templates_gears/models/item/inactive_vex_armor_trim.json"
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_vex_armor_trim.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveVexArmorTrimItem.java"
         ]
       }
     },
@@ -438,6 +415,19 @@
           "src/main/java/com/kuma/createtemplatesgears/item/InactiveWildArmorTrimItem.java"
         ]
       }
+    },
+    {
+      "name": "InactiveEyeArmorTrim",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inactive_eye_armor_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_eye_armor_trim.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveEyeArmorTrimItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -446,89 +436,88 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.create_templates_gears.create_template_gears": "Create: Template \u0026 Gears",
       "item.create_templates_gears.coast_sheet": "Coast Shard",
       "item.create_templates_gears.coast_coral_sheet": "Coast Coral Shard",
-      "item.create_templates_gears.inactive_coast_armor_trim": "Innactive Coast Armor Trim",
+      "item.create_templates_gears.inactive_coast_armor_trim": "Inactive Coast Armor Trim",
       "item.create_templates_gears.dune_sheet": "Dune Shard",
-      "item.create_templates_gears.inactive_dune_armor_trim": "Innactive Dune Armor Trim",
+      "item.create_templates_gears.inactive_dune_armor_trim": "Inactive Dune Armor Trim",
       "item.create_templates_gears.eye_sheet": "Eye Shard",
-      "item.create_templates_gears.innactive_eye_armor_trim": "Innactive Eye Armor Trim",
+      "item.create_templates_gears.inactive_eye_armor_trim": "Inactive Eye Armor Trim",
       "item.create_templates_gears.host_sheet": "Host Sheet",
-      "item.create_templates_gears.inactive_host_armor_trim": "Innactive Host Armor Trim",
+      "item.create_templates_gears.inactive_host_armor_trim": "Inactive Host Armor Trim",
       "item.create_templates_gears.rib_sheet": "Rib Shard",
-      "item.create_templates_gears.inactive_rib_armor_trim": "Innactive Rib Armor Trim",
+      "item.create_templates_gears.inactive_rib_armor_trim": "Inactive Rib Armor Trim",
       "item.create_templates_gears.sentry_sheet": "Sentry Shard",
-      "item.create_templates_gears.inactive_sentry_armor_trim": "Innactive Sentry Armor Trim",
+      "item.create_templates_gears.inactive_sentry_armor_trim": "Inactive Sentry Armor Trim",
       "item.create_templates_gears.shaper_sheet": "Shaper Shard",
-      "item.create_templates_gears.inactive_shaper_armor_trim": "Innactive Shaper Armor Trim",
+      "item.create_templates_gears.inactive_shaper_armor_trim": "Inactive Shaper Armor Trim",
       "item.create_templates_gears.silence_sheet": "Silence Shard",
       "item.create_templates_gears.silence_echo_sheet": "Silence Echo Shard",
-      "item.create_templates_gears.inactive_silence_armor_trim": "Innactive Silence Armor Trim",
+      "item.create_templates_gears.inactive_silence_armor_trim": "Inactive Silence Armor Trim",
       "item.create_templates_gears.snout_sheet": "Snout Shard",
-      "item.create_templates_gears.inactive_snout_armor_trim": "Innactive Snout Armor Trim",
+      "item.create_templates_gears.inactive_snout_armor_trim": "Inactive Snout Armor Trim",
       "item.create_templates_gears.spire_sheet": "Spire Shard",
-      "item.create_templates_gears.inactive_spire_armor_trim": "Innactive Spire Armor Trim",
+      "item.create_templates_gears.inactive_spire_armor_trim": "Inactive Spire Armor Trim",
       "item.create_templates_gears.tide_sheet": "Tide Shard",
-      "item.create_templates_gears.inactive_tide_armor_trim": "Innactive Tide Armor Trim",
+      "item.create_templates_gears.inactive_tide_armor_trim": "Inactive Tide Armor Trim",
       "item.create_templates_gears.vex_sheet": "Vex Shard",
-      "item.create_templates_gears.inactive_vex_armor_trim": "Innactive Vex Armor Trim",
+      "item.create_templates_gears.inactive_vex_armor_trim": "Inactive Vex Armor Trim",
       "item.create_templates_gears.ward_sheet": "Ward Shard",
-      "item.create_templates_gears.inactive_ward_armor_trim": "Innactive Ward Armor Trim",
+      "item.create_templates_gears.inactive_ward_armor_trim": "Inactive Ward Armor Trim",
       "item.create_templates_gears.wayfinder_sheet": "Wayfinder Shard",
-      "item.create_templates_gears.inactive_wayfinder_armor_trim": "Innactive Wayfinder Armor Trim",
+      "item.create_templates_gears.inactive_wayfinder_armor_trim": "Inactive Wayfinder Armor Trim",
       "item.create_templates_gears.wild_sheet": "Wild Shard",
       "item.create_templates_gears.wild_mossy_sheet": "Wild Mossy Shard",
-      "item.create_templates_gears.inactive_wild_armor_trim": "Innactive Wild Armor Trim"
+      "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wild Armor Trim"
     },
     "fr_fr": {
-      "item_group.create_templates_gears.create_template_gears": "Create: Template \u0026 Gears",
-      "item.create_templates_gears.coast_sheet": "Coast Shard",
-      "item.create_templates_gears.coast_coral_sheet": "Coast Coral Shard",
-      "item.create_templates_gears.inactive_coast_armor_trim": "Innactive Coast Armor Trim",
-      "item.create_templates_gears.dune_sheet": "Dune Shard",
-      "item.create_templates_gears.inactive_dune_armor_trim": "Innactive Dune Armor Trim",
-      "item.create_templates_gears.eye_sheet": "Eye Shard",
-      "item.create_templates_gears.innactive_eye_armor_trim": "Innactive Eye Armor Trim",
-      "item.create_templates_gears.host_sheet": "Host Sheet",
-      "item.create_templates_gears.inactive_host_armor_trim": "Innactive Host Armor Trim",
-      "item.create_templates_gears.rib_sheet": "Rib Shard",
-      "item.create_templates_gears.inactive_rib_armor_trim": "Innactive Rib Armor Trim",
-      "item.create_templates_gears.sentry_sheet": "Sentry Shard",
-      "item.create_templates_gears.inactive_sentry_armor_trim": "Innactive Sentry Armor Trim",
-      "item.create_templates_gears.shaper_sheet": "Shaper Shard",
-      "item.create_templates_gears.inactive_shaper_armor_trim": "Innactive Shaper Armor Trim",
-      "item.create_templates_gears.silence_sheet": "Silence Shard",
-      "item.create_templates_gears.silence_echo_sheet": "Silence Echo Shard",
-      "item.create_templates_gears.inactive_silence_armor_trim": "Innactive Silence Armor Trim",
-      "item.create_templates_gears.snout_sheet": "Snout Shard",
-      "item.create_templates_gears.inactive_snout_armor_trim": "Innactive Snout Armor Trim",
-      "item.create_templates_gears.spire_sheet": "Spire Shard",
-      "item.create_templates_gears.inactive_spire_armor_trim": "Innactive Spire Armor Trim",
-      "item.create_templates_gears.tide_sheet": "Tide Shard",
-      "item.create_templates_gears.inactive_tide_armor_trim": "Innactive Tide Armor Trim",
-      "item.create_templates_gears.vex_sheet": "Vex Shard",
-      "item.create_templates_gears.inactive_vex_armor_trim": "Innactive Vex Armor Trim",
-      "item.create_templates_gears.ward_sheet": "Ward Shard",
-      "item.create_templates_gears.inactive_ward_armor_trim": "Innactive Ward Armor Trim",
-      "item.create_templates_gears.wayfinder_sheet": "Wayfinder Shard",
-      "item.create_templates_gears.inactive_wayfinder_armor_trim": "Innactive Wayfinder Armor Trim",
-      "item.create_templates_gears.wild_sheet": "Wild Shard",
-      "item.create_templates_gears.wild_mossy_sheet": "Wild Mossy Shard",
-      "item.create_templates_gears.inactive_wild_armor_trim": "Innactive Wild Armor Trim"
+      "item.create_templates_gears.coast_sheet": "Plaque des Littoraux",
+      "item.create_templates_gears.coast_coral_sheet": "Plaque des Coraux Littoraux",
+      "item.create_templates_gears.inactive_coast_armor_trim": "Ornement des Littoraux Inactif",
+      "item.create_templates_gears.dune_sheet": "Plaque des Dunes",
+      "item.create_templates_gears.inactive_dune_armor_trim": "Ornement des Dunes Inactif",
+      "item.create_templates_gears.eye_sheet": "Plaque de l\u0027Oeil",
+      "item.create_templates_gears.inactive_eye_armor_trim": "Ornement de l\u0027Oeil Inactif",
+      "item.create_templates_gears.host_sheet": "Plaque des Hôtes",
+      "item.create_templates_gears.inactive_host_armor_trim": "Ornement des Hôtes Inactif",
+      "item.create_templates_gears.raiser_sheet": "Plaque des Eleveurs",
+      "item.create_templates_gears.inactive_raiser_armor_trim": "Ornement des Eleveurs Inactif",
+      "item.create_templates_gears.rib_sheet": "Plaque des Côtes",
+      "item.create_templates_gears.inactive_rib_armor_trim": "Ornement des Côtes Inactif",
+      "item.create_templates_gears.sentry_sheet": "Plaque des Sentinelles",
+      "item.create_templates_gears.inactive_sentry_armor_trim": "Ornement des Sentinelles Inactif",
+      "item.create_templates_gears.shaper_sheet": "Plaque des Modeuleurs",
+      "item.create_templates_gears.inactive_shaper_armor_trim": "Ornement des Modeuleurs Inactif",
+      "item.create_templates_gears.silence_sheet": "Plaque du Silence",
+      "item.create_templates_gears.silence_echo_sheet": "Plaque d’Echo Silencieux",
+      "item.create_templates_gears.inactive_silence_armor_trim": "Ornement du Silence Inactif",
+      "item.create_templates_gears.snout_sheet": "Plaque des Groins",
+      "item.create_templates_gears.inactive_snout_armor_trim": "Ornement des Groins Inactif",
+      "item.create_templates_gears.spire_sheet": "Plaque des Tours",
+      "item.create_templates_gears.inactive_spire_armor_trim": "Ornement des Tours Inactif",
+      "item.create_templates_gears.tide_sheet": "Plaque des Marées",
+      "item.create_templates_gears.inactive_tide_armor_trim": "Ornement des Marées Inactif",
+      "item.create_templates_gears.vex_sheet": "Plaque des Vex",
+      "item.create_templates_gears.inactive_vex_armor_trim": "Ornement des Vex Inactif",
+      "item.create_templates_gears.ward_sheet": "Plaque des Abîmes",
+      "item.create_templates_gears.inactive_ward_armor_trim": "Ornement des Abîmes Inactif",
+      "item.create_templates_gears.wayfinder_sheet": "Plaque des Eclaireurs",
+      "item.create_templates_gears.inactive_wayfinder_armor_trim": "Ornement des Eclaireurs Inactif",
+      "item.create_templates_gears.wild_sheet": "Plaque des Jungles",
+      "item.create_templates_gears.wild_mossy_sheet": "Plaque des Jungle Mousseuse",
+      "item.create_templates_gears.inactive_wild_armor_trim": "Ornement des Jungles Inactif"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/com/kuma/createtemplatesgears/ClientInit.java",
       "src/main/java/com/kuma/createtemplatesgears/CreateTemplatesGearsMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/com/kuma/createtemplatesgears/ClientInit.java",
-      "src/main/resources/create_templates_gears.accesswidener",
       "src/main/resources/create_templates_gears.mixins.json",
+      "src/main/resources/create_templates_gears.accesswidener",
       "src/main/resources/fabric.mod.json",
-      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModTabs.java",
-      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModItems.java",
-      "src/main/java/com/kuma/createtemplatesgears/mixins/CreateTemplatesGearsModRepairItemRecipeMixin.java"
+      "src/main/java/com/kuma/createtemplatesgears/mixins/CreateTemplatesGearsModRepairItemRecipeMixin.java",
+      "src/main/java/com/kuma/createtemplatesgears/init/CreateTemplatesGearsModItems.java"
     ]
   },
   "foldersRoot": {
