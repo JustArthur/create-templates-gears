@@ -17,7 +17,23 @@
           "item": "create_templates_gears:granite_sheet"
         },
         {
-		  "item": "create_better_smithing_templates:polished_diamond"
+		  "item": "minecraft:terracotta"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_raiser_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_raiser_armor_trim"
+        },
+        {
+		  "tag": "forge:polished_diamond"
         }
       ],
       "results": [
@@ -46,7 +62,7 @@
           "item": "create_templates_gears:inactive_raiser_armor_trim"
         },
         {
-          "amount": 1000,
+          "amount": 250,
           "fluid": "create_enchantment_industry:experience",
           "nbt": {}
         }

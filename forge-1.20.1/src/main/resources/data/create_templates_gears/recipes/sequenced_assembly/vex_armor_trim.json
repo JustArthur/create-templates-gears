@@ -14,10 +14,26 @@
       "type": "create:deploying",
       "ingredients": [
         {
+          "item": "create_templates_gears:inactive_vex_armor_trim"
+        },
+        {
+		  "item": "minecraft:feather"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_vex_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
           "item": "create_templates_gears:stone_sheet"
         },
         {
-		  "item": "create_better_smithing_templates:polished_diamond"
+		  "tag": "forge:polished_diamond"
         }
       ],
       "results": [
@@ -46,7 +62,7 @@
           "item": "create_templates_gears:inactive_vex_armor_trim"
         },
         {
-          "amount": 1000,
+          "amount": 250,
           "fluid": "create_enchantment_industry:experience",
           "nbt": {}
         }

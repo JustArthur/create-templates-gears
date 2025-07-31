@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_better_smithing_templates:polished_diamond",
+    "minecraft:diamond"
+  ]
+}

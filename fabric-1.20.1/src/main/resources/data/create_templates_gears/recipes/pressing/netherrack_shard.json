@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_better_smithing_templates:netherrack_shard",
+      "count": 2
+    }
+  ]
+}

@@ -432,7 +432,7 @@
   "workspaceSettings": {
     "modid": "create_templates_gears",
     "modName": "Create: Templates \u0026 Gears",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Allows you to create Smithing Templates using the machines from the Create mod.",
     "author": "su apt install Kuma",
     "websiteURL": "https://github.com/JustArthur/create-templates-gears",

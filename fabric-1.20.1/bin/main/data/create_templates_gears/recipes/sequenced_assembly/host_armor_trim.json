@@ -17,6 +17,22 @@
           "item": "create_templates_gears:granite_sheet"
         },
         {
+		  "item": "minecraft:orange_terracotta"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_host_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_host_armor_trim"
+        },
+        {
 		  "item": "minecraft:diamond"
         }
       ],
@@ -46,7 +62,7 @@
           "item": "create_templates_gears:inactive_host_armor_trim"
         },
         {
-          "amount": 1000,
+          "amount": 250,
           "fluid": "create_enchantment_industry:experience",
           "nbt": {}
         }

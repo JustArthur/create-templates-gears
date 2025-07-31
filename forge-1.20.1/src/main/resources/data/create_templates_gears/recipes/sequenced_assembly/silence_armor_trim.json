@@ -17,7 +17,7 @@
           "item": "create_templates_gears:silence_echo_sheet"
         },
         {
-		  "item": "create_better_smithing_templates:polished_diamond"
+		  "tag": "forge:polished_diamond"
         }
       ],
       "results": [
@@ -46,7 +46,7 @@
           "item": "create_templates_gears:inactive_silence_armor_trim"
         },
         {
-          "amount": 1000,
+          "amount": 250,
           "fluid": "create_enchantment_industry:experience",
           "nbt": {}
         }

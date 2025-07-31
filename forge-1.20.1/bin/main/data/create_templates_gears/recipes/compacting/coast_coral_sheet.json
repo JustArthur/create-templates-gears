@@ -5,10 +5,10 @@
       "item": "create_templates_gears:coast_sheet"
     },
     {
-      "item": "minecraft:dead_tube_coral"
+      "tag": "forge:dead_corals"
     },
     {
-      "item": "minecraft:dead_tube_coral"
+      "tag": "forge:dead_corals"
     }
   ],
   "results": [

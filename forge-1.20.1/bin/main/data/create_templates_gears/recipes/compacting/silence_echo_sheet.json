@@ -5,13 +5,10 @@
       "item": "create_templates_gears:deepslate_sheet"
     },
     {
-      "item": "minecraft:sculk"
-    },
-    {
-      "item": "minecraft:sculk"
-    },
-    {
       "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:sculk"
     }
   ],
   "results": [
