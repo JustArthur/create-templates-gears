@@ -1,6 +1,6 @@
 # *IMPORTANT*
 
-This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry), and [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
+This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry) and for Forge only you need [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
 
 ---
 
@@ -31,7 +31,7 @@ With the base shards ready, the real process begins.
 
 You’ll need to:
 
-- Use **Mechanical Arms** to deploy decorative components like coral or gems onto your shard.
+- Use **Mechanical Arms** to deploy Polished Diamond onto your shard (For fabric a simple Diamond is used).
 - Run them through **Sequenced Assembly**, where each action upgrades the item step by step.
 - Finally, **inject XP fluid** into the item using a **Spout** to awaken its full potential.
 
@@ -45,7 +45,7 @@ You’ll need to:
 After these steps, you’ll have a **fully functional Armor Trim Template** — obtained through automation, logic, and style.  
 Perfect for tech-based survival worlds or modpacks aiming to reduce RNG and promote **player-driven progression**.
 
-# New Recipes
+# New Recipes (Forge Version Only)
 
 Adding 2 new Recipes for [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates) mod.
 
