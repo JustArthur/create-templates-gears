@@ -8,11 +8,11 @@
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Innactive Coast Armor Trim",
+    "name": "Inactive Coast Armor Trim",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:CreateTemplatesGearsTab"
       }
     ],
     "stackSize": 64,

@@ -8,11 +8,11 @@
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Innactive Snout Armor Trim",
+    "name": "Inactive Snout Armor Trim",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:CreateTemplatesGearsTab"
       }
     ],
     "stackSize": 64,

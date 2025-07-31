@@ -8,11 +8,11 @@
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Innactive Vex Armor Trim",
+    "name": "Inactive Vex Armor Trim",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:CreateTemplatesGearsTab"
       }
     ],
     "stackSize": 64,

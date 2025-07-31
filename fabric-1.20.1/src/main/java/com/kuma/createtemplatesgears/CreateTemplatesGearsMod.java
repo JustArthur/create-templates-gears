@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.fabricmc.api.ModInitializer;
 
+import com.kuma.createtemplatesgears.init.CreateTemplatesGearsModTabs;
 import com.kuma.createtemplatesgears.init.CreateTemplatesGearsModItems;
 
 public class CreateTemplatesGearsMod implements ModInitializer {
@@ -26,6 +27,8 @@ public class CreateTemplatesGearsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing CreateTemplatesGearsMod");
+
+		CreateTemplatesGearsModTabs.load();
 
 		CreateTemplatesGearsModItems.load();
 

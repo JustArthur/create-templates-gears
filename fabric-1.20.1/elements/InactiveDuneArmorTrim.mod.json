@@ -8,11 +8,11 @@
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Innactive Dune Armor Trim",
+    "name": "Inactive Dune Armor Trim",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:CreateTemplatesGearsTab"
       }
     ],
     "stackSize": 64,
