@@ -4,7 +4,7 @@ This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment
 
 ---
 
-![banner_img](https://cdn.modrinth.com/data/ubfQJZV7/images/0b5bb24c99daa9ffdc61df8d8cf15c8beb1933b8.png)
+![banner_img](https://cdn.modrinth.com/data/ubfQJZV7/images/5b7682b5f373f2dfd90561cda9c96f642bec0990.png)
 
 This mod adds a complex, immersive, and fully automated way to craft Armor Trim Smithing Templates using Create machines and experience fluid.
 
@@ -58,5 +58,6 @@ Adding 2 new Recipes for [Create Better Smithing Templates](https://modrinth.com
 
 # Check out my other mods and texture pack!
 
+[![colorcraft](https://cdn.modrinth.com/data/DR43yPHa/images/801a9e736afb0087062434a8eac5ebd6ba828682.png)](https://modrinth.com/mod/create-melodies-mechanisms)
 [![colorcraft](https://cdn.modrinth.com/data/eEFJhRYv/images/2e31d7a074cbb34170d974221063c4390b9332a8.png)](https://modrinth.com/resourcepack/textcolorcraft)
 [![ascendedalloys](https://cdn.modrinth.com/data/6kjnAD62/images/7db9639b95699eb2128fb817f8fc8b501e8367b4.png)](https://modrinth.com/mod/ascendedalloys)
