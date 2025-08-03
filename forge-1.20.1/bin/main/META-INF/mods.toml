@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="create_templates_gears"
-version="1.1.1"
+version="1.1.2"
 displayName="Create: Templates & Gears"
 displayURL="https://github.com/JustArthur/create-templates-gears"
 logoFile="logo.png"

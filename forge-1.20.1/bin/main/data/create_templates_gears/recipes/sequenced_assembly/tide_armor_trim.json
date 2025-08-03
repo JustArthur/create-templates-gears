@@ -17,7 +17,7 @@
           "item": "create_templates_gears:tide_sheet"
         },
         {
-		  "tag": "forge:polished_diamond"
+		  "item": "create_templates_gears:diamond_sheet"
         }
       ],
       "results": [
@@ -35,7 +35,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:inactive_tide_armor_trim"
+          "item": "create_templates_gears:inactive_tide_armor_trim"
         }
       ]
     },

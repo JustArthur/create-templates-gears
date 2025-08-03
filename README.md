@@ -1,6 +1,6 @@
 # *IMPORTANT*
 
-This mod requires [Create](https://modrinth.com/mod/create), [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry) and for Forge only you need [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates).
+This mod requires [Create](https://modrinth.com/mod/create) and [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry).
 
 ---
 
@@ -31,11 +31,11 @@ With the base shards ready, the real process begins.
 
 You’ll need to:
 
-- Use **Mechanical Arms** to deploy Polished Diamond onto your shard (For fabric a simple Diamond is used).
+- Use **Mechanical Arms** to deploy Diamond Shard.
 - Run them through **Sequenced Assembly**, where each action upgrades the item step by step.
 - Finally, **inject XP fluid** into the item using a **Spout** to awaken its full potential.
 
-![recipe_3](https://cdn.modrinth.com/data/ubfQJZV7/images/ef68737b72ca29aeec4082c908e4d03e76f75281.png)
+![recipe_3](https://cdn.modrinth.com/data/ubfQJZV7/images/0e022043c8b0b17eaae2f0b4e9a821ebf6040b64.png)
 
 > Every trim has a different flavor — some require specific coral types, others need rare materials like diamonds or nether components.  
 > The XP injection is what **activates the shard**, making it usable as a Smithing Template.
@@ -44,17 +44,6 @@ You’ll need to:
 
 After these steps, you’ll have a **fully functional Armor Trim Template** — obtained through automation, logic, and style.  
 Perfect for tech-based survival worlds or modpacks aiming to reduce RNG and promote **player-driven progression**.
-
-# New Recipes (Forge Version Only)
-
-Adding 2 new Recipes for [Create Better Smithing Templates](https://modrinth.com/mod/create-better-smithing-templates) mod.
-
-<table>
-  <tr>
-    <td><img src="https://cdn.modrinth.com/data/ubfQJZV7/images/ca9b9a8e32cb17c8e1ea84820153b96a535b44c8.png" alt="new recipe 1" width="100%"/></td>
-    <td><img src="https://cdn.modrinth.com/data/ubfQJZV7/images/037b0bae909e9ad0ec87aafe9ecaa8dca157d15e.png" alt="new recipe 2" width="100%"/></td>
-  </tr>
-</table>
 
 # Check out my other mods and texture pack!
 

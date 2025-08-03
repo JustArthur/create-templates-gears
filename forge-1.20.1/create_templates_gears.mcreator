@@ -373,6 +373,45 @@
           "src/main/resources/assets/create_templates_gears/models/item/inactive_wild_armor_trim.json"
         ]
       }
+    },
+    {
+      "name": "NetherrackSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/NetherrackSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/netherrack_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "InactiveNetherrackSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inactive_netherrack_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_templates_gears/models/item/inactive_netherrack_sheet.json",
+          "src/main/java/com/kuma/createtemplatesgears/item/InactiveNetherrackSheetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kuma/createtemplatesgears/item/DiamondSheetItem.java",
+          "src/main/resources/assets/create_templates_gears/models/item/diamond_sheet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -409,7 +448,10 @@
       "item.create_templates_gears.inactive_vex_armor_trim": "Inactive Vex Armor Trim",
       "item.create_templates_gears.inactive_ward_armor_trim": "Inactive Ward Armor Trim",
       "item.create_templates_gears.inactive_wayfinder_armor_trim": "Inactive Wayfinder Armor Trim",
-      "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wild Armor Trim"
+      "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wild Armor Trim",
+      "item.create_templates_gears.netherrack_sheet": "Netherrack Shard",
+      "item.create_templates_gears.inactive_netherrack_sheet": "Innactive Netherrack Shard",
+      "item.create_templates_gears.diamond_sheet": "Diamond Shard"
     },
     "fr_fr": {
       "item_group.create_templates_gears.create_templates_gears": "Create: Templates \u0026 Gears",
@@ -440,7 +482,10 @@
       "item.create_templates_gears.inactive_vex_armor_trim": "Inactive Tide Armor Trim",
       "item.create_templates_gears.inactive_ward_armor_trim": "Inactive Vex Armor Trim",
       "item.create_templates_gears.inactive_wayfinder_armor_trim": "Inactive Ward Armor Trim",
-      "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wayfinder Armor Trim"
+      "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wayfinder Armor Trim",
+      "item.create_templates_gears.netherrack_sheet": "Netherrack Shard",
+      "item.create_templates_gears.inactive_netherrack_sheet": "Netherrack Shard",
+      "item.create_templates_gears.diamond_sheet": "Innactive Netherrack Shard"
     }
   },
   "metadata": {
@@ -459,7 +504,7 @@
   "workspaceSettings": {
     "modid": "create_templates_gears",
     "modName": "Create: Templates \u0026 Gears",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Allows you to create Smithing Templates using the machines from the Create mod.",
     "author": "su apt install Kuma",
     "websiteURL": "https://github.com/JustArthur/create-templates-gears",

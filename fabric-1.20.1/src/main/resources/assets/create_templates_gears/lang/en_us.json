@@ -27,5 +27,8 @@
   "item.create_templates_gears.inactive_vex_armor_trim": "Inactive Vex Armor Trim",
   "item.create_templates_gears.inactive_ward_armor_trim": "Inactive Ward Armor Trim",
   "item.create_templates_gears.inactive_wayfinder_armor_trim": "Inactive Wayfinder Armor Trim",
-  "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wild Armor Trim"
+  "item.create_templates_gears.inactive_wild_armor_trim": "Inactive Wild Armor Trim",
+  "item.create_templates_gears.netherrack_sheet": "Netherrack Shard",
+  "item.create_templates_gears.inactive_netherrack_sheet": "Inactive Netherrack Shard",
+  "item.create_templates_gears.diamond_sheet": "Diamond Shard"
 }

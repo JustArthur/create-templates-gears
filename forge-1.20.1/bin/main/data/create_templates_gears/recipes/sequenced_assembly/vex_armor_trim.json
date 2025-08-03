@@ -33,7 +33,7 @@
           "item": "create_templates_gears:stone_sheet"
         },
         {
-		  "tag": "forge:polished_diamond"
+		  "item": "create_templates_gears:diamond_sheet"
         }
       ],
       "results": [
@@ -51,7 +51,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:inactive_vex_armor_trim"
+          "item": "create_templates_gears:inactive_vex_armor_trim"
         }
       ]
     },

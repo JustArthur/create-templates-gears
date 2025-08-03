@@ -15,6 +15,7 @@ import com.kuma.createtemplatesgears.item.StoneSheetItem;
 import com.kuma.createtemplatesgears.item.SpireSheetItem;
 import com.kuma.createtemplatesgears.item.SilenceEchoSheetItem;
 import com.kuma.createtemplatesgears.item.RibSheetItem;
+import com.kuma.createtemplatesgears.item.NetherrackSheetItem;
 import com.kuma.createtemplatesgears.item.InactiveWildArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWayfinderArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWardArmorTrimItem;
@@ -27,6 +28,7 @@ import com.kuma.createtemplatesgears.item.InactiveShaperArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveSentryArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveRibArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveRaiserArmorTrimItem;
+import com.kuma.createtemplatesgears.item.InactiveNetherrackSheetItem;
 import com.kuma.createtemplatesgears.item.InactiveHostArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveEyeArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveDuneArmorTrimItem;
@@ -34,6 +36,7 @@ import com.kuma.createtemplatesgears.item.InactiveCoastArmorTrimItem;
 import com.kuma.createtemplatesgears.item.GraniteSheetItem;
 import com.kuma.createtemplatesgears.item.EyeSheetItem;
 import com.kuma.createtemplatesgears.item.DuneSheetItem;
+import com.kuma.createtemplatesgears.item.DiamondSheetItem;
 import com.kuma.createtemplatesgears.item.DeepslateSheetItem;
 import com.kuma.createtemplatesgears.item.CoastSheetItem;
 import com.kuma.createtemplatesgears.item.CoastCoralSheetItem;
@@ -69,6 +72,9 @@ public class CreateTemplatesGearsModItems {
 	public static final RegistryObject<Item> INACTIVE_WARD_ARMOR_TRIM = REGISTRY.register("inactive_ward_armor_trim", () -> new InactiveWardArmorTrimItem());
 	public static final RegistryObject<Item> INACTIVE_WAYFINDER_ARMOR_TRIM = REGISTRY.register("inactive_wayfinder_armor_trim", () -> new InactiveWayfinderArmorTrimItem());
 	public static final RegistryObject<Item> INACTIVE_WILD_ARMOR_TRIM = REGISTRY.register("inactive_wild_armor_trim", () -> new InactiveWildArmorTrimItem());
+	public static final RegistryObject<Item> NETHERRACK_SHEET = REGISTRY.register("netherrack_sheet", () -> new NetherrackSheetItem());
+	public static final RegistryObject<Item> INACTIVE_NETHERRACK_SHEET = REGISTRY.register("inactive_netherrack_sheet", () -> new InactiveNetherrackSheetItem());
+	public static final RegistryObject<Item> DIAMOND_SHEET = REGISTRY.register("diamond_sheet", () -> new DiamondSheetItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

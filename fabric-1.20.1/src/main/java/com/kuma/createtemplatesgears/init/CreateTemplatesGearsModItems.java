@@ -17,6 +17,7 @@ import com.kuma.createtemplatesgears.item.StoneSheetItem;
 import com.kuma.createtemplatesgears.item.SpireSheetItem;
 import com.kuma.createtemplatesgears.item.SilenceEchoSheetItem;
 import com.kuma.createtemplatesgears.item.RibSheetItem;
+import com.kuma.createtemplatesgears.item.NetherrackSheetItem;
 import com.kuma.createtemplatesgears.item.InactiveWildArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWayfinderArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveWardArmorTrimItem;
@@ -29,6 +30,7 @@ import com.kuma.createtemplatesgears.item.InactiveShaperArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveSentryArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveRibArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveRaiserArmorTrimItem;
+import com.kuma.createtemplatesgears.item.InactiveNetherrackSheetItem;
 import com.kuma.createtemplatesgears.item.InactiveHostArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveEyeArmorTrimItem;
 import com.kuma.createtemplatesgears.item.InactiveDuneArmorTrimItem;
@@ -36,6 +38,7 @@ import com.kuma.createtemplatesgears.item.InactiveCoastArmorTrimItem;
 import com.kuma.createtemplatesgears.item.GraniteSheetItem;
 import com.kuma.createtemplatesgears.item.EyeSheetItem;
 import com.kuma.createtemplatesgears.item.DuneSheetItem;
+import com.kuma.createtemplatesgears.item.DiamondSheetItem;
 import com.kuma.createtemplatesgears.item.DeepslateSheetItem;
 import com.kuma.createtemplatesgears.item.CoastSheetItem;
 import com.kuma.createtemplatesgears.item.CoastCoralSheetItem;
@@ -70,6 +73,9 @@ public class CreateTemplatesGearsModItems {
 	public static Item INACTIVE_WARD_ARMOR_TRIM;
 	public static Item INACTIVE_WAYFINDER_ARMOR_TRIM;
 	public static Item INACTIVE_WILD_ARMOR_TRIM;
+	public static Item NETHERRACK_SHEET;
+	public static Item INACTIVE_NETHERRACK_SHEET;
+	public static Item DIAMOND_SHEET;
 
 	public static void load() {
 		COAST_SHEET = register("coast_sheet", new CoastSheetItem());
@@ -100,6 +106,9 @@ public class CreateTemplatesGearsModItems {
 		INACTIVE_WARD_ARMOR_TRIM = register("inactive_ward_armor_trim", new InactiveWardArmorTrimItem());
 		INACTIVE_WAYFINDER_ARMOR_TRIM = register("inactive_wayfinder_armor_trim", new InactiveWayfinderArmorTrimItem());
 		INACTIVE_WILD_ARMOR_TRIM = register("inactive_wild_armor_trim", new InactiveWildArmorTrimItem());
+		NETHERRACK_SHEET = register("netherrack_sheet", new NetherrackSheetItem());
+		INACTIVE_NETHERRACK_SHEET = register("inactive_netherrack_sheet", new InactiveNetherrackSheetItem());
+		DIAMOND_SHEET = register("diamond_sheet", new DiamondSheetItem());
 	}
 
 	public static void clientLoad() {

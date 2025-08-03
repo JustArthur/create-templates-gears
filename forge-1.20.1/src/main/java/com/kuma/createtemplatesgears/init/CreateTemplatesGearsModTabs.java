@@ -46,5 +46,8 @@ public class CreateTemplatesGearsModTabs {
 				tabData.accept(CreateTemplatesGearsModItems.INACTIVE_WARD_ARMOR_TRIM.get());
 				tabData.accept(CreateTemplatesGearsModItems.INACTIVE_WAYFINDER_ARMOR_TRIM.get());
 				tabData.accept(CreateTemplatesGearsModItems.INACTIVE_WILD_ARMOR_TRIM.get());
+				tabData.accept(CreateTemplatesGearsModItems.NETHERRACK_SHEET.get());
+				tabData.accept(CreateTemplatesGearsModItems.INACTIVE_NETHERRACK_SHEET.get());
+				tabData.accept(CreateTemplatesGearsModItems.DIAMOND_SHEET.get());
 			}).build());
 }
