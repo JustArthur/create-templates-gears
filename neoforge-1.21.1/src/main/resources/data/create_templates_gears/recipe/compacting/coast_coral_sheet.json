@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_templates_gears:coast_sheet"
+    },
+    {
+      "tag": "create_templates_gears:dead_corals"
+    },
+    {
+      "tag": "create_templates_gears:dead_corals"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_templates_gears:coast_coral_sheet"
+    }
+  ]
+}

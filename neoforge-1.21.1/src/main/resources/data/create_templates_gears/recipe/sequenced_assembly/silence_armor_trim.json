@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_templates_gears:silence_echo_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:silence_echo_sheet"
+        },
+        {
+		  "item": "create_templates_gears:diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:inactive_silence_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_silence_armor_trim"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:inactive_silence_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_silence_armor_trim"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:silence_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_templates_gears:inactive_silence_armor_trim"
+  }
+}
