@@ -1,7 +1,9 @@
 package net.suaptinstallkuma.create_templates_gears;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.fml.ModList;
 import net.suaptinstallkuma.create_templates_gears.item.ModItems;
+import net.suaptinstallkuma.create_templates_gears.item.ModItemsCompat;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,6 +30,10 @@ public class CreateTemplatesGears {
 
         ModItems.register(modEventBus);
 
+        if(ModList.get().isLoaded("more_armor_trims")) {
+            ModItemsCompat.registerItemsCompat(modEventBus);
+        }
+
         modEventBus.addListener(this::addCreative);
     }
 
@@ -37,42 +43,33 @@ public class CreateTemplatesGears {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.DEEPSLATE_SHEET);
+            event.accept(ModItems.GRANITE_SHEET);
+            event.accept(ModItems.NETHERRACK_SHEET);
+            event.accept(ModItems.STONE_SHEET);
+
+            event.accept(ModItems.DIAMOND_SHEET);
+
             event.accept(ModItems.BOLT_SHEET);
             event.accept(ModItems.COAST_SHEET);
             event.accept(ModItems.COAST_CORAL_SHEET);
             event.accept(ModItems.DUNE_SHEET);
-            event.accept(ModItems.EYE_SHEET);
+            event.accept(ModItems.END_SHEET);
             event.accept(ModItems.FLOW_SHEET);
             event.accept(ModItems.RIB_SHEET);
-            event.accept(ModItems.STONE_SHEET);
             event.accept(ModItems.SILENCE_SHEET);
             event.accept(ModItems.SPIRE_SHEET);
             event.accept(ModItems.TIDE_SHEET);
-            event.accept(ModItems.DEEPSLATE_SHEET);
-            event.accept(ModItems.WILD_MOSSY_SHEET);
-            event.accept(ModItems.GRANITE_SHEET);
-            event.accept(ModItems.NETHERRACK_SHEET);
-            event.accept(ModItems.DIAMOND_SHEET);
+            event.accept(ModItems.MOSSY_STONE_SHEET);
 
-            event.accept(ModItems.INACTIVE_BOLT_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_COAST_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_DUNE_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_EYE_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_FLOW_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_HOST_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_RAISER_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_RIB_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_SENTRY_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_SHAPER_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_SILENCE_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_SNOUT_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_SPIRE_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_TIDE_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_VEX_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_WARD_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_WAYFINDER_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_WILD_ARMOR_TRIM);
-            event.accept(ModItems.INACTIVE_NETHERRACK_SHEET);
+            if(ModList.get().isLoaded("more_armor_trims")) {
+                event.accept(ModItemsCompat.MOSS_SHEET);
+                event.accept(ModItemsCompat.OBSIDIAN_SHEET);
+                event.accept(ModItemsCompat.SOUL_SAND_SHEET);
+
+                event.accept(ModItemsCompat.GREED_SHEET);
+                event.accept(ModItemsCompat.WITNESS_SHEET);
+            }
         }
     }
 

@@ -5,18 +5,23 @@
   "item.create_templates_gears.granite_sheet": "Granite Shard",
   "item.create_templates_gears.netherrack_sheet": "Netherrack Shard",
   "item.create_templates_gears.stone_sheet": "Stone Shard",
+  "item.create_templates_gears.obsidian_sheet": "Obsidian Shard",
+  "item.create_templates_gears.moss_sheet": "Moss Shard",
+  "item.create_templates_gears.soul_sand_sheet": "Soul Sand Shard",
 
   "item.create_templates_gears.coast_sheet": "Coast Shard",
   "item.create_templates_gears.coast_coral_sheet": "Coast Coral Shard",
   "item.create_templates_gears.dune_sheet": "Dune Shard",
-  "item.create_templates_gears.eye_sheet": "Eye Shard",
+  "item.create_templates_gears.end_sheet": "End Shard",
   "item.create_templates_gears.rib_sheet": "Rib Shard",
   "item.create_templates_gears.silence_echo_sheet": "Silence Echo Shard",
   "item.create_templates_gears.spire_sheet": "Spire Shard",
   "item.create_templates_gears.tide_sheet": "Tide Shard",
-  "item.create_templates_gears.wild_mossy_sheet": "Wild Mossy Shard",
+  "item.create_templates_gears.mossy_stone_sheet": "Mossy Stone Shard",
   "item.create_templates_gears.flow_sheet": "Flow Shard",
   "item.create_templates_gears.bolt_sheet": "Bolt Shard",
+  "item.create_templates_gears.greed_sheet": "Greed Shard",
+  "item.create_templates_gears.witness_sheet": "Witness Shard",
 
   "item.create_templates_gears.inactive_coast_armor_trim": "Inactive Coast Armor Trim",
   "item.create_templates_gears.inactive_dune_armor_trim": "Inactive Dune Armor Trim",
@@ -39,5 +44,19 @@
 
   "item.create_templates_gears.inactive_netherrack_sheet": "Inactive Netherrack Shard",
 
-  "item.create_templates_gears.diamond_sheet": "Diamond Shard"
+  "item.create_templates_gears.diamond_sheet": "Diamond Shard",
+
+  "item.create_templates_gears.inactive_beast_sheet": "Inactive Beast Armor Armor Trim",
+  "item.create_templates_gears.inactive_fever_sheet": "Inactive Fever Armor Trim",
+  "item.create_templates_gears.inactive_greed_sheet": "Inactive Greed Armor Trim",
+  "item.create_templates_gears.inactive_horizon_sheet": "Inactive Horizon Armor Trim",
+  "item.create_templates_gears.inactive_myth_sheet": "Inactive Myth Armor Trim",
+  "item.create_templates_gears.inactive_nihility_sheet": "Inactive Nihility Armor Trim",
+  "item.create_templates_gears.inactive_origin_sheet": "Inactive Origin Armor Trim",
+  "item.create_templates_gears.inactive_parasite_sheet": "Inactive Parasite Armor Trim",
+  "item.create_templates_gears.inactive_ram_sheet": "Inactive Ram Armor Trim",
+  "item.create_templates_gears.inactive_storm_sheet": "Inactive Storm Armor Trim",
+  "item.create_templates_gears.inactive_twilight_sheet": "Inactive Twilight Armor Trim",
+  "item.create_templates_gears.inactive_witness_sheet": "Inactive Witness Armor Trim",
+  "item.create_templates_gears.inactive_wraith_sheet": "Inactive Wraith Armor Trim"
 }

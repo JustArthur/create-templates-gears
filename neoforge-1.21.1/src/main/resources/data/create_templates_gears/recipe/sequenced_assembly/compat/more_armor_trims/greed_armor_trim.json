@@ -1,12 +1,18 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "more_armor_trims"
+    }
+  ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "create_templates_gears:mossy_stone_sheet"
+    "item": "create_templates_gears:greed_sheet"
   },
   "loops": 1,
   "results": [
     {
-      "id": "minecraft:wild_armor_trim_smithing_template"
+      "id": "more_armor_trims:greed_armor_trim_smithing_template"
     }
   ],
   "sequence": [
@@ -14,7 +20,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create_templates_gears:mossy_stone_sheet"
+          "item": "create_templates_gears:greed_sheet"
         },
         {
 		  "item": "create_templates_gears:diamond_sheet"
@@ -22,7 +28,7 @@
       ],
       "results": [
         {
-          "id": "create_templates_gears:inactive_wild_armor_trim"
+          "id": "create_templates_gears:inactive_greed_armor_trim"
         }
       ]
     },
@@ -30,12 +36,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_templates_gears:inactive_wild_armor_trim"
+          "item": "create_templates_gears:inactive_greed_armor_trim"
         }
       ],
       "results": [
         {
-          "id": "create_templates_gears:inactive_wild_armor_trim"
+          "id": "create_templates_gears:inactive_greed_armor_trim"
         }
       ]
     },
@@ -43,7 +49,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "create_templates_gears:inactive_wild_armor_trim"
+          "item": "create_templates_gears:inactive_greed_armor_trim"
         },
         {
           "type": "fluid_stack",
@@ -53,12 +59,12 @@
       ],
       "results": [
         {
-          "id": "minecraft:wild_armor_trim_smithing_template"
+          "id": "more_armor_trims:greed_armor_trim_smithing_template"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "create_templates_gears:inactive_wild_armor_trim"
+    "id": "create_templates_gears:inactive_greed_armor_trim"
   }
 }

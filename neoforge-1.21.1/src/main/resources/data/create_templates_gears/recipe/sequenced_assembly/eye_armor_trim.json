@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "create_templates_gears:eye_sheet"
+    "item": "create_templates_gears:end_sheet"
   },
   "loops": 1,
   "results": [
@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create_templates_gears:eye_sheet"
+          "item": "create_templates_gears:end_sheet"
         },
         {
 		  "item": "create_templates_gears:diamond_sheet"

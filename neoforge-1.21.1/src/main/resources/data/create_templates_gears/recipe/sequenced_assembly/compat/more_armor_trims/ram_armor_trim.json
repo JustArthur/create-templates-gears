@@ -1,0 +1,86 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "more_armor_trims"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_templates_gears:stone_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "more_armor_trims:ram_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:stone_sheet"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:inactive_ram_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_ram_armor_trim"
+        },
+        {
+		  "item": "create_templates_gears:diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:inactive_ram_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_ram_armor_trim"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:inactive_ram_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_ram_armor_trim"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "more_armor_trims:ram_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_templates_gears:inactive_ram_armor_trim"
+  }
+}
