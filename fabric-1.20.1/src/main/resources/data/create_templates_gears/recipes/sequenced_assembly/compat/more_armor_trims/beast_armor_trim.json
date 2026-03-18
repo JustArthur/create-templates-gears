@@ -1,0 +1,85 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["more_armor_trims"]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_templates_gears:mossy_stone_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "more_armor_trims:beast_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:mossy_stone_sheet"
+        },
+        {
+		  "item": "minecraft:leather"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        },
+        {
+		  "item": "create_templates_gears:diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_beast_armor_trim"
+        },
+        {
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "item": "more_armor_trims:beast_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_templates_gears:inactive_beast_armor_trim"
+  }
+}

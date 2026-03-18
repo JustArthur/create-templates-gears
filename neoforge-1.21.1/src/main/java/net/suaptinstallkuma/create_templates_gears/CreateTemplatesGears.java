@@ -11,7 +11,6 @@ import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -53,7 +52,7 @@ public class CreateTemplatesGears {
             event.accept(ModItems.BOLT_SHEET);
             event.accept(ModItems.COAST_SHEET);
             event.accept(ModItems.COAST_CORAL_SHEET);
-            event.accept(ModItems.DUNE_SHEET);
+            event.accept(ModItems.SAND_SHEET);
             event.accept(ModItems.END_SHEET);
             event.accept(ModItems.FLOW_SHEET);
             event.accept(ModItems.RIB_SHEET);

@@ -1,0 +1,61 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "create_templates_gears:diamond_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:unprocessed_diamond_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:unprocessed_diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:unprocessed_diamond_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:unprocessed_diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_templates_gears:diamond_sheet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_templates_gears:unprocessed_diamond_sheet"
+  }
+}

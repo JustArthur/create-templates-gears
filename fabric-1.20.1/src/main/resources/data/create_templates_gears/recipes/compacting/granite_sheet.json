@@ -2,6 +2,9 @@
   "type": "create:compacting",
   "ingredients": [
     {
+      "item": "create:cut_granite"
+    },
+    {
       "item": "minecraft:granite"
     },
     {
