@@ -9,8 +9,8 @@ version="${mod_version}"
 displayName="${mod_name}"
 #updateJSONURL="https://change.me.example.invalid/updates.json"
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
-logoFile="icon.png" #optional
-#credits="" #optional
+logoFile="icon.png"
+#credits=""
 authors="su apt install Kuma"
 description='''Allow you to create Smithing Templates using the machines from the Create mod.'''
 
